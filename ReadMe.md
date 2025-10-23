@@ -37,6 +37,9 @@ brew install fileicon
 fileicon set ./dist/SoundCloudDownloader ./icon.icns
 ```
 
+#### Attention
+Si vous avez creer cette executable sur un mac et que vous utilisez un editeur de code, il faudras déplacer l'éxécutable depuis le Finder et non depuis l'éditeur car sinon vous allez simplement déplacer un ficher text non éxécutable.
+
 ### Utilisation a travers Python
 Vous pouvez aussi lancer le script a travers python:
 
@@ -51,10 +54,9 @@ Et voila!
 Voici quelques information de comment utiliser cette outil:
 - playlist_url: L'URL de la playlist soundcloud que vous souhaitez télécharger.
 - download_folder: Chemin vers le fichier ou vous voulez que les chansons soit télécharger
-- authenticate: Une option permettant d'acctiver ou désactiver l'authentification. Certatains sons sont protéger par l'authentification et l'activation de cette option permet de télécharger ces sons
-  - cookiefile: Pour l'utiliser, il faut aller sur le site de soundcloud, utiliser une extesion dans votre navigateur comme Cookie-editor ou autre pour exporter vous cookie sous le format Netscape. Une fois que vous avez vous cookie, copier les dans un fichier et indiquer le chemin vers se fichier dans cette option du menu. 
+- authenticate: Une option permettant d'acctiver ou désactiver l'authentification. Certatains sons sont protéger par l'authentification et l'activation de cette option permet de télécharger ces sons. Quand on active cette option, il vas faloir renseigner un cookie, ce cookie vous pouvez le récupérer du site de soundcloud. Il faut utiliser une extension a votre navigateur comme cookie-editor par exemple et éxporter vos cookies sous le format Netscape. Vous allet ensuite coller ce cookie quand le programme vous le demande. ***(ATTETION: il faut taper entrer sur une ligne vide quand vous coller vos cookies)***. Vos cookies seront sauvegarder dans un fichier pour être réutiliser plus tard si vous reéxécuter le programme. Vous pouvez aussi changer le cookie sauvegarder grace au menu. ***Cette option n'est pas du tout nécéssaire pour que le programme fonctionne, si des sons ont besoin d'authentification et que vous ne l'avez pas fourni ils seront simplement skip.***
 - add_artwork: Une option permettant de activer et de désactiver le téléchargement des pochettes des chansons
 - min_bitrate: Bitrate minimum des sons que l'outil accepte de télécharger (en Kbps)
 - max_workers: Nombre de coeur de CPU que l'outil peut utiliser. Le plus vous augmenter ce chiffre le plus les téléchargement pourront se faire en parallel et donc le plus toute l'oppération vas aller rapidement.
 ### Retéléchargement
-Quand vous retélécharger des musiques, *** du temps que le dossier de téléchargement est le même*** elles seront skip pour pas avoir de doublons. Ceci fonctionne que si c'est exactement la même musique sur soundcloud. Si c'est une redistribution, elle risque d'être retélécharger
+Quand vous retélécharger des musiques, ***du temps que le dossier de téléchargement est le même*** elles seront skip pour pas avoir de doublons. Ceci fonctionne que si c'est exactement la même musique sur soundcloud. Si c'est une redistribution, elle risque d'être retélécharger
