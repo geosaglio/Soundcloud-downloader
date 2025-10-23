@@ -1,0 +1,7 @@
+pyinstaller
+yt-dlp 
+tqdm 
+aiohttp 
+mutagen
+pillow
+requests
