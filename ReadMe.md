@@ -12,35 +12,7 @@ soundcloud-downloader/
 ├── soundcloud_playlist_downloader.py   # Script principal Python
 ├── SoundCloudDownloader.spec           # Fichier de spécification pour PyInstaller
 ├── build/                              # Dossier de build généré par PyInstaller
-│   └── SoundCloudDownloader/
-│       ├── Analysis-00.toc
-│       ├── EXE-00.toc
-│       ├── PKG-00.toc
-│       ├── PYZ-00.pyz
-│       ├── PYZ-00.toc
-│       ├── warn-SoundCloudDownloader.txt
-│       ├── xref-SoundCloudDownloader.html
-│       └── localpycs/
 └── downloads/                          # Dossier pour les téléchargements
-    ├── ATLANTIS (DAN LEE EDIT).m4a.part
-    ├── ATLANTIS (DAN LEE EDIT).m4a.part-Frag4.part
-    ├── ATLANTIS (DAN LEE EDIT).m4a.ytdl
-    ├── BADMAN.m4a.part
-    ├── BADMAN.m4a.ytdl
-    ├── Crystal Paradise.m4a.part
-    ├── Crystal Paradise.m4a.ytdl
-    ├── Dance Floor Essentials Vol.1.m4a.part
-    ├── Dance Floor Essentials Vol.1.m4a.ytdl
-    ├── downloaded.txt
-    ├── Energy.m4a.part
-    ├── Energy.m4a.ytdl
-    ├── Hold That Sucker Down (Extended Mix).opus.part
-    ├── Hold That Sucker Down (Extended Mix).opus.part-Frag15.part
-    ├── Hold That Sucker Down (Extended Mix).opus.ytdl
-    ├── KRITIKAL - Left To Right.m4a.part
-    ├── KRITIKAL - Left To Right.m4a.ytdl
-    ├── LICIA & Solid State - Feel This Way (blkout. remix).m4a.part
-    └── LICIA & Solid State - Feel This Way (blkout. remix).m4a.ytdl
 ```
 
 ## Prérequis
