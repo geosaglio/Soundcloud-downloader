@@ -127,11 +127,11 @@ def should_retry_with_auth(err: Exception) -> bool:
 def menu():
     config = {
         "playlist_url": "",
-        "download_folder": "downloads",          # resolved relative to APP_DIR
+        "download_folder": "Music_pour_mixer",          # resolved relative to APP_DIR
         "authenticate": has_saved_cookie(),      # auto-enable if cookie already saved
         "add_artwork": True,
         "min_bitrate": 320,
-        "max_workers": 6,
+        "max_workers": 8,
     }
 
     while True:
